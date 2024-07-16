@@ -1,0 +1,85 @@
+/*style css*/
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+body {
+    max-width: 600px;
+}
+
+h1,
+h2,
+h3 {
+
+    color: white;
+    font-weight: 800;
+    background-color: maroon;
+    padding: 5px;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.list {
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-top: -2em;
+}
+
+li {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.items>li {
+
+    list-style: none;
+
+}
+
+ul,
+ol {
+    padding-bottom: 10px;
+    border-bottom: 2px solid maroon;
+}
+
+a,
+a:visited {
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid maroon;
+    padding: 5px;
+    color: black;
+    min-width: 100px;
+    max-width: 200px;
+    display: block;
+}
+
+a:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.description .sub {
+    font-style: italic;
+}
+
+.sub {
+    text-decoration: underline;
+}
